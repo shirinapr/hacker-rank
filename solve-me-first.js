@@ -1,5 +1,5 @@
 function main(a, b) {
-    let sum = a + b;
-    
-    return sum;
+  let sum = a + b;
+
+  return sum;
 }
