@@ -1,4 +1,4 @@
-function main(candles) {
+function BirthdayCakeCandles(candles: number[]): number {
   let max = Math.max(...candles);
   let count = 0;
 

@@ -1,4 +1,4 @@
-function main(arr) {
+function DiagonalDifference(arr: number[][]): number {
   let leftDgn = 0;
   let rightDgn = 0;
 

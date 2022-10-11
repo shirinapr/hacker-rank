@@ -1,4 +1,4 @@
-function main(arr) {
+function MiniMaxSum(arr: number[]): void {
   let sum = arr.reduce((a, b) => a + b);
   let minNumber = Math.min(...arr);
   let maxNumber = Math.max(...arr);

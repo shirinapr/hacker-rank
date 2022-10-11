@@ -1,4 +1,4 @@
-function main(a, b) {
+function CompareTheTriplets(a: number[], b: number[]): number[] {
   let points = [0, 0];
 
   for (let i = 0; i < a.length; i++) {

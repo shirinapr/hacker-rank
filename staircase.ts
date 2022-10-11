@@ -1,13 +1,13 @@
-function main(n) {
+function Staircase(n: number): void {
   for (let i = 1; i <= n; ++i) {
-    let text = "";
+    let text = '';
     for (let j = i; j < n; ++j) {
-      text += " ";
+      text += ' ';
     }
     for (let j = 0; j < i; ++j) {
-      text += "#";
+      text += '#';
     }
     console.log(text);
   }
-  // this algorithm doesn't have return.
+  // this algorithm doesn't have a return.
 }

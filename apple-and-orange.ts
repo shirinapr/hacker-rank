@@ -1,4 +1,11 @@
-function main(s, t, a, b, apples, oranges) {
+function AppleAndOrange(
+  s: number,
+  t: number,
+  a: number,
+  b: number,
+  apples: number[],
+  oranges: number[]
+): void {
   let orange = 0;
   let apple = 0;
 

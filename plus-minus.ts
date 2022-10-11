@@ -1,4 +1,4 @@
-function main(arr) {
+function PlusMinus(arr: number[]): void {
   let positive = 0;
   let negative = 0;
   let zero = 0;

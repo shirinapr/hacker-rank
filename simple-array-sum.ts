@@ -1,4 +1,4 @@
-function main(ar) {
+function SimpleArraySum(ar: number[]): number {
   let sum = 0;
 
   for (let i = 0; i < ar.length; i++) {
