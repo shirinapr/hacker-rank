@@ -1,4 +1,4 @@
-function birthday(s: number[], d: number, m: number): number) {
+function birthday(s: number[], d: number, m: number): number {
   let chocolate = 0;
   let counter = 0;
   for (let i = 0; i < s.length; i++) {
